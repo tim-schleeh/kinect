@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F4A6D8165C0A4600A368D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F4A6D7165C0A4600A368D4 /* Cocoa.framework */; };
+		51F4A6E2165C0A4600A368D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F4A6E0165C0A4600A368D4 /* InfoPlist.strings */; };
+		51F4A6E4165C0A4600A368D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4A6E3165C0A4600A368D4 /* main.m */; };
+		51F4A6E8165C0A4600A368D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 51F4A6E6165C0A4600A368D4 /* Credits.rtf */; };
+		51F4A6EB165C0A4600A368D4 /* tskAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4A6EA165C0A4600A368D4 /* tskAppDelegate.m */; };
+		51F4A6EE165C0A4600A368D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F4A6EC165C0A4600A368D4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51F4A6D3165C0A4600A368D4 /* kinect-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinect-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F4A6D7165C0A4600A368D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		51F4A6DA165C0A4600A368D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		51F4A6DB165C0A4600A368D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		51F4A6DC165C0A4600A368D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51F4A6DF165C0A4600A368D4 /* kinect-osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kinect-osx-Info.plist"; sourceTree = "<group>"; };
+		51F4A6E1165C0A4600A368D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51F4A6E3165C0A4600A368D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51F4A6E5165C0A4600A368D4 /* kinect-osx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kinect-osx-Prefix.pch"; sourceTree = "<group>"; };
+		51F4A6E7165C0A4600A368D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		51F4A6E9165C0A4600A368D4 /* tskAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tskAppDelegate.h; sourceTree = "<group>"; };
+		51F4A6EA165C0A4600A368D4 /* tskAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tskAppDelegate.m; sourceTree = "<group>"; };
+		51F4A6ED165C0A4600A368D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51F4A6D0165C0A4600A368D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F4A6D8165C0A4600A368D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51F4A6C8165C0A4600A368D4 = {
+			isa = PBXGroup;
+			children = (
+				51F4A6DD165C0A4600A368D4 /* kinect-osx */,
+				51F4A6D6165C0A4600A368D4 /* Frameworks */,
+				51F4A6D4165C0A4600A368D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51F4A6D4165C0A4600A368D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51F4A6D3165C0A4600A368D4 /* kinect-osx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51F4A6D6165C0A4600A368D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F4A6D7165C0A4600A368D4 /* Cocoa.framework */,
+				51F4A6D9165C0A4600A368D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F4A6D9165C0A4600A368D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51F4A6DA165C0A4600A368D4 /* AppKit.framework */,
+				51F4A6DB165C0A4600A368D4 /* CoreData.framework */,
+				51F4A6DC165C0A4600A368D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		51F4A6DD165C0A4600A368D4 /* kinect-osx */ = {
+			isa = PBXGroup;
+			children = (
+				51F4A6E9165C0A4600A368D4 /* tskAppDelegate.h */,
+				51F4A6EA165C0A4600A368D4 /* tskAppDelegate.m */,
+				51F4A6EC165C0A4600A368D4 /* MainMenu.xib */,
+				51F4A6DE165C0A4600A368D4 /* Supporting Files */,
+			);
+			path = "kinect-osx";
+			sourceTree = "<group>";
+		};
+		51F4A6DE165C0A4600A368D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F4A6DF165C0A4600A368D4 /* kinect-osx-Info.plist */,
+				51F4A6E0165C0A4600A368D4 /* InfoPlist.strings */,
+				51F4A6E3165C0A4600A368D4 /* main.m */,
+				51F4A6E5165C0A4600A368D4 /* kinect-osx-Prefix.pch */,
+				51F4A6E6165C0A4600A368D4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51F4A6D2165C0A4600A368D4 /* kinect-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51F4A6F1165C0A4600A368D4 /* Build configuration list for PBXNativeTarget "kinect-osx" */;
+			buildPhases = (
+				51F4A6CF165C0A4600A368D4 /* Sources */,
+				51F4A6D0165C0A4600A368D4 /* Frameworks */,
+				51F4A6D1165C0A4600A368D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kinect-osx";
+			productName = "kinect-osx";
+			productReference = 51F4A6D3165C0A4600A368D4 /* kinect-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51F4A6CA165C0A4600A368D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tsk;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tim Schleeh";
+			};
+			buildConfigurationList = 51F4A6CD165C0A4600A368D4 /* Build configuration list for PBXProject "kinect-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51F4A6C8165C0A4600A368D4;
+			productRefGroup = 51F4A6D4165C0A4600A368D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51F4A6D2165C0A4600A368D4 /* kinect-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51F4A6D1165C0A4600A368D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F4A6E2165C0A4600A368D4 /* InfoPlist.strings in Resources */,
+				51F4A6E8165C0A4600A368D4 /* Credits.rtf in Resources */,
+				51F4A6EE165C0A4600A368D4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51F4A6CF165C0A4600A368D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F4A6E4165C0A4600A368D4 /* main.m in Sources */,
+				51F4A6EB165C0A4600A368D4 /* tskAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51F4A6E0165C0A4600A368D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F4A6E1165C0A4600A368D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51F4A6E6165C0A4600A368D4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F4A6E7165C0A4600A368D4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		51F4A6EC165C0A4600A368D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F4A6ED165C0A4600A368D4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51F4A6EF165C0A4600A368D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		51F4A6F0165C0A4600A368D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		51F4A6F2165C0A4600A368D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kinect-osx/kinect-osx-Prefix.pch";
+				INFOPLIST_FILE = "kinect-osx/kinect-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51F4A6F3165C0A4600A368D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kinect-osx/kinect-osx-Prefix.pch";
+				INFOPLIST_FILE = "kinect-osx/kinect-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51F4A6CD165C0A4600A368D4 /* Build configuration list for PBXProject "kinect-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F4A6EF165C0A4600A368D4 /* Debug */,
+				51F4A6F0165C0A4600A368D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51F4A6F1165C0A4600A368D4 /* Build configuration list for PBXNativeTarget "kinect-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F4A6F2165C0A4600A368D4 /* Debug */,
+				51F4A6F3165C0A4600A368D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51F4A6CA165C0A4600A368D4 /* Project object */;
+}
