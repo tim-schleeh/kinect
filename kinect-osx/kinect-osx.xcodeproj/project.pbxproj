@@ -296,6 +296,7 @@
 				51F4A6F3165C0A4600A368D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
